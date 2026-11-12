@@ -58,7 +58,7 @@ const ico = {
   hospitality: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1"><path d="M10 40C8 28 14 16 24 8M38 40C40 28 34 16 24 8"/><path d="M12 32c4-1 6-4 6-8-4 1-6 4-6 8zM12 22c4-1 5-4 5-8-4 1-5 4-5 8zM36 32c-4-1-6-4-6-8 4 1 6 4 6 8zM36 22c-4-1-5-4-5-8 4 1 5 4 5 8zM24 8c-2 3-2 6 0 9 2-3 2-6 0-9z"/><path d="M17 41h14" opacity=".7"/></svg>`
 };
 pages.index = ['Home', `
-<section class="hero hero-home"><img class="bg" src="${I('hero')}" alt=""><div class="arch-frame"></div>${garland(390, 32, 'g-m')}${garland(1440, 42, 'g-d')}<div class="shade home-shade"></div>
+<section class="hero hero-home"><picture><source media="(min-width:900px)" srcset="assets/img/hero-desktop.jpg"><img class="bg" src="assets/img/hero-mobile.jpg" alt=""></picture><div class="shade home-shade"></div>
   <div class="hero-in reveal">
     <h1>A knot is how<br>a family says:<br>it holds.</h1>
     <p class="kicker">PRIVATE WORLDS.<br>BEAUTIFULLY ORCHESTRATED.</p>
