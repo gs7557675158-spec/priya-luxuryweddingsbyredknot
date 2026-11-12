@@ -120,7 +120,7 @@ const svc = [
   ['06', 'ENTERTAINMENT & CELEBRITY MANAGEMENT', 'Curated experience with leading talent to create unforgettable moments.', 'nightpalace'],
 ];
 pages.services = ['Services', `
-<section class="hero hero-services"><img class="bg" src="${I('citypalace')}" alt=""><div class="shade light"></div>
+<section class="hero hero-services"><picture><source media="(min-width:900px)" srcset="assets/img/services-desktop.jpg"><img class="bg" src="assets/img/services-mobile.jpg" alt=""></picture><div class="shade light"></div>
   <div class="hero-in reveal"><h1>Every detail<br>thoughtfully<br>orchestrated.</h1>
   <p>To the first idea to the final farewell we bring together the creativity, the precision and care to craft celebrations that are seamless, immersive and deeply meaningful</p></div>
 </section>
