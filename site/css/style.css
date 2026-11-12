@@ -707,3 +707,13 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
   .hero-home picture .bg{object-position:50% 45%}
   .home-shade{background:linear-gradient(90deg,rgba(35,8,10,.72) 0%,rgba(35,8,10,.4) 34%,rgba(35,8,10,0) 58%),linear-gradient(180deg,rgba(30,8,6,.45) 0%,rgba(30,8,6,0) 18%,rgba(30,8,6,0) 50%,rgba(40,10,12,.85) 100%)}
 }
+.hero-about .bg{object-position:12% 30%}
+@media(min-width:900px){.hero-about .bg{object-position:50% 25%}}
+@media(max-width:899px){.hero-about .bg{object-position:0% 30%}}
+
+/* about hero: move couple to the right */
+.hero-about{background:#5a0c1e}
+@media(max-width:899px){.hero-about .bg{inset:0 auto 0 15%;width:100%;object-position:50% 30%}}
+@media(min-width:900px){.hero-about .bg{inset:0 auto 0 8%;width:92%;object-position:50% 62%}}
+.hero-about .bg{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%);mask-image:linear-gradient(90deg,transparent 0,#000 30%)}
+.hero-about{background:linear-gradient(90deg,#5a0c1e,#4b000b)}
