@@ -717,3 +717,13 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
 @media(min-width:900px){.hero-about .bg{inset:0 auto 0 8%;width:92%;object-position:50% 62%}}
 .hero-about .bg{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%);mask-image:linear-gradient(90deg,transparent 0,#000 30%)}
 .hero-about{background:linear-gradient(90deg,#5a0c1e,#4b000b)}
+
+/* about hero desktop: show heads, tighter type */
+@media(min-width:900px){
+  .hero-about{height:max(600px,74vh)}
+  .hero-about .bg{object-position:50% 6%}
+  .hero-about h1{font-size:clamp(44px,4vw,60px);line-height:1.12}
+  .hero-about .rule{margin:22px 0 28px}
+  .hero-about blockquote{font-size:clamp(17px,1.5vw,22px);max-width:430px;line-height:1.5}
+}
+@media(min-width:900px){.hero-about{height:max(640px,78vh)}.hero-about .bg{object-position:50% 45%}}
