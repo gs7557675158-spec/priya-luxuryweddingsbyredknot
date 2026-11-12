@@ -611,3 +611,31 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
 .contact-end .sk-c1{width:110px;top:40px}
 .contact-end .sk-c2{width:150px;top:26px}
 .ce-img{height:42%}
+
+/* ===== about: What Drives Us (exact pass) ===== */
+.drives{background:#fbf2e6;padding:46px 8% 58px;text-align:center;position:relative;overflow:hidden}
+.drives h2{font-size:clamp(22px,6.4vw,28px);color:#5c3b2a;font-weight:400;margin:0 0 36px}
+.drive-list{max-width:310px;gap:36px;margin:0 auto}
+.drive{gap:26px;align-items:center;text-align:left}
+.drive svg{width:50px;height:56px;flex:none;color:#b68a5a}
+.drive h4{font-family:var(--sans);font-size:11px;letter-spacing:.12em;font-weight:500;color:#6b4426;line-height:1.4}
+.drive p{font-family:var(--sans);font-size:13px;line-height:1.5;color:#6f5f52;font-weight:400;margin-top:6px;max-width:190px}
+.drives .bird-s{color:#b68a5a;opacity:.85;position:absolute}
+.drives .bird-s.b1{left:5%;top:44px;width:74px;transform:none}
+.drives .bird-s.b2{right:-4px;top:6px;width:104px;transform:none}
+@media(min-width:900px){
+  .drives{padding:96px 8% 110px}
+  .drives h2{font-size:44px;margin-bottom:64px}
+  .drive-list{max-width:1100px;flex-direction:row;gap:60px;justify-content:center}
+  .drive{flex-direction:column;text-align:center;flex:1;gap:22px}
+  .drive svg{width:84px;height:94px}
+  .drive h4{font-size:14px}
+  .drive p{font-size:17px;max-width:240px;margin:8px auto 0}
+  .drives .bird-s.b1{width:150px;top:70px;left:8%}
+  .drives .bird-s.b2{width:210px;top:20px;right:2%}
+}
+
+.drive p{font-size:13.5px;max-width:172px;line-height:1.5}
+.drives .bird-s.b2{right:8px;width:96px;top:8px}
+.drive svg{stroke-width:1}
+@media(min-width:900px){.drive p{font-size:17px;max-width:250px}.drives .bird-s.b2{right:4%}}
