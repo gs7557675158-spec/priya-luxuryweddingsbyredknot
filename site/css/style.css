@@ -780,3 +780,19 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
   .svc.flip .svc-t{padding:48px max(60px,8vw) 48px 6%}
   .svc-i,.paper{aspect-ratio:4/3}
 }
+
+/* contact closing: keep text above the photo on mobile */
+@media(max-width:899px){
+  .contact-end{height:max(520px,135vw)}
+  .contact-end h2{top:24%}
+  .contact-end>.rule{top:calc(24% + 112px)}
+  .ce-img{height:38%}
+}
+/* home hero desktop type: closer to design */
+@media(min-width:900px){
+  .hero-home h1{font-size:clamp(46px,4.5vw,70px);line-height:1.12}
+  .hero-home .kicker{font-size:14px!important;letter-spacing:.22em;margin-top:22px!important}
+  .hero-home .btns{max-width:480px;margin-top:26px}
+  .hero-home .btn{font-size:11px;padding:17px 0}
+  .hero-home .hero-in{padding-bottom:80px}
+}
