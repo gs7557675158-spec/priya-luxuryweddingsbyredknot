@@ -113,11 +113,11 @@ pages.about = ['About', `
 /* SERVICES */
 const svc = [
   ['01', 'CREATIVE DIRECTION', 'We shape a unique creative vision that reflects your story, style and sense of celebration.', null],
-  ['02', 'PLANNING & PRODUCTION', 'End-to-end planning with meticulous attention to detail and flawless delivery on ground', 'flowers'],
-  ['03', 'DESIGN & DÉCOR', 'Bespoke environments that bring your vision to life — from concept to creation', 'cityglow'],
-  ['04', 'DESTINATION MANAGEMENT', 'Seamless logistics, travel and on-ground coordination for extraordinary destination weddings.', 'lakepalace'],
-  ['05', 'HOSPITALITY & GUEST EXPERIENCE', 'Thoughtful hospitality that makes every guest feel at home.', 'hall'],
-  ['06', 'ENTERTAINMENT & CELEBRITY MANAGEMENT', 'Curated experience with leading talent to create unforgettable moments.', 'nightpalace'],
+  ['02', 'PLANNING & PRODUCTION', 'End-to-end planning with meticulous attention to detail and flawless delivery on ground', 'aisle'],
+  ['03', 'DESIGN & DÉCOR', 'Bespoke environments that bring your vision to life — from concept to creation', 'mandap'],
+  ['04', 'DESTINATION MANAGEMENT', 'Seamless logistics, travel and on-ground coordination for extraordinary destination weddings.', 'lake'],
+  ['05', 'HOSPITALITY & GUEST EXPERIENCE', 'Thoughtful hospitality that makes every guest feel at home.', 'table'],
+  ['06', 'ENTERTAINMENT & CELEBRITY MANAGEMENT', 'Curated experience with leading talent to create unforgettable moments.', 'lights'],
 ];
 pages.services = ['Services', `
 <section class="hero hero-services"><picture><source media="(min-width:900px)" srcset="assets/img/services-desktop.jpg"><img class="bg" src="assets/img/services-mobile.jpg" alt=""></picture><div class="shade light"></div>
