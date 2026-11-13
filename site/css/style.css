@@ -796,3 +796,11 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
   .hero-home .btn{font-size:11px;padding:17px 0}
   .hero-home .hero-in{padding-bottom:80px}
 }
+
+/* contact closing mobile: between sketches and photo */
+@media(max-width:899px){
+  .contact-end h2{top:33%}
+  .contact-end>.rule{top:calc(33% + 112px)}
+  .contact-end .sk-c1{width:92px;top:34px}
+  .contact-end .sk-c2{width:120px;top:22px}
+}
