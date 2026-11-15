@@ -67,12 +67,11 @@ pages.index = ['Home', `
   ${orn}
 </section>
 <section class="intro">
-  ${birdLg}
   <div class="intro-text reveal">
     <h2>Extraordinary<br>Weddings.<br>Thoughtfully Crafted.</h2>
     <p>A confluence of culture, beauty and impeccable execution — for celebrations that are deeply personal and truly unforgettable.</p>
   </div>
-  <div class="intro-img"><img src="${I('lake')}" alt="">${gazebo}</div>
+  <div class="intro-img"><img src="${I('lake')}" alt=""></div>
 </section>
 <section class="pillars">
   <div class="reveal">${ico.craft}<span>WEDDING<br>CRAFT</span></div>
