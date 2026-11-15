@@ -22,7 +22,7 @@ const layout = (file, title, body) => `<!DOCTYPE html>
 </head>
 <body class="page-${file}">
 <header class="site-header${file === 'index' ? ' on-hero' : file === 'services' ? ' on-hero dark' : ''}">
-  <a class="logo" href="index.html"><span class="logo-t">TIED ONCE</span><span class="logo-s">Luxury Weddings by RedKnot</span></a>
+  <a class="logo" href="index.html"><span class="logo-s">Luxury Weddings by RedKnot</span><span class="logo-t">TIED ONCE</span></a>
   <nav class="nav">${NAV.map(([f, l]) => `<a href="${f}.html"${f === file ? ' class="active"' : ''}>${l}</a>`).join('')}</nav>
 </header>
 <main>
