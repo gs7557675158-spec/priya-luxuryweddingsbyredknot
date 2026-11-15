@@ -74,10 +74,10 @@ pages.index = ['Home', `
   <div class="intro-img"><img src="${I('lake')}" alt=""></div>
 </section>
 <section class="pillars">
-  <div class="reveal">${ico.craft}<span>WEDDING<br>CRAFT</span></div>
-  <div class="reveal">${ico.creative}<span>CREATIVE<br>DIRECTION</span></div>
-  <div class="reveal">${ico.flawless}<span>FLAWLESS<br>EXECUTION</span></div>
-  <div class="reveal">${ico.hospitality}<span>BESPOKE<br>HOSPITALITY</span></div>
+  <div class="reveal"><img src="assets/img/ic-craft.png" alt=""><span>WEDDING<br>CRAFT</span></div>
+  <div class="reveal"><img src="assets/img/ic-creative.png" alt=""><span>CREATIVE<br>DIRECTION</span></div>
+  <div class="reveal"><img src="assets/img/ic-flawless.png" alt=""><span>FLAWLESS<br>EXECUTION</span></div>
+  <div class="reveal"><img src="assets/img/ic-hospitality.png" alt=""><span>BESPOKE<br>HOSPITALITY</span></div>
 </section>
 <section class="film"><img class="bg" src="${I('courtyard')}" alt=""><div class="shade film-shade"></div>
   <div class="film-in reveal"><h2>Moments become<br>legacies here.</h2><button class="play" aria-label="Watch our film"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 7.5l7 4.5-7 4.5z"/></svg></button><span class="film-l">WATCH OUR FILM</span></div>
