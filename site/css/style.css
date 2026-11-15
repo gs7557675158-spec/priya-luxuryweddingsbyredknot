@@ -804,3 +804,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.12}
   .contact-end .sk-c1{width:92px;top:34px}
   .contact-end .sk-c2{width:120px;top:22px}
 }
+/* portfolio chapters: new photos framing */
+.chapter:nth-child(2) img{object-position:50% 38%}
+.chapter:nth-child(5) img{object-position:50% 62%}
+.chapter:nth-child(2) .shade,.chapter:nth-child(5) .shade{background:linear-gradient(90deg,rgba(15,5,5,.5) 0%,rgba(15,5,5,.1) 55%,rgba(15,5,5,0) 100%)}
